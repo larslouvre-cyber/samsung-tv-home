@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>Home</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div id="root">
+
+  <div id="home" class="page">
+    <header id="hdr">
+      <h1 id="title">STUE</h1>
+      <div id="clock">--:--</div>
+    </header>
+    <main id="stage"></main>
+    <footer id="hint">
+      <span class="key">&#8592;&#8593;&#8595;&#8594;</span> navigér
+      <span class="key">OK</span> vælg
+      <span class="key">RETUR</span> tilbage
+    </footer>
+  </div>
+
+  <div id="player" class="page hidden">
+    <video id="video" playsinline preload="auto"></video>
+    <div id="player-msg"></div>
+  </div>
+
+  <div id="toast" class="hidden"></div>
+
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/focus.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

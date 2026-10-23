@@ -1,0 +1,11 @@
+# TizenBrew installer-side artefakter
+dist/
+*.wgt
+.tizen/
+
+# tokens og lokale hemmeligheder
+tools/.tv-token
+.tv-token
+
+# macOS
+.DS_Store

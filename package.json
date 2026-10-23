@@ -1,0 +1,10 @@
+{
+  "name": "samsung-tv-home",
+  "version": "0.1.0",
+  "description": "Hurtig, minimal og tilpasselig hjemmeskaerm til Samsung Tizen TV (2017+)",
+  "packageType": "app",
+  "appName": "Home",
+  "appPath": "app/index.html",
+  "keys": ["MediaPlay", "MediaPause"],
+  "license": "MIT"
+}
